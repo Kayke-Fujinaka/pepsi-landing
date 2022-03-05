@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pepsi Website</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="section">
+
+        <header>
+            <a href="#"><img src="./assets/img/logo.png" class="logo"></a>
+           <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>That's What<br><span>I like</span></h2>
+                <p>The clone home of Pepsi®. Stay up to date with the latest products, promotions, news and more at www.pepsi.com. 
+                    Originally, the Pepsi formula was created for medicinal purposes. But its taste pleased so much that it began to be consumed simply for pleasure.</p>
+                <a class="more" href="#">View All Products</a>
+            </div>
+            <div class="imgBox">
+                <img src="./assets/img/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+
+        <ul class="thumb">
+            <li><img src="./assets/img/pepsi001.png"
+                    onclick="imgSlider('./assets/img/pepsi001.png');changeBgColor('#0062be')"></li>
+            <li><img src="./assets/img/pepsi002.png"
+                    onclick="imgSlider('./assets/img/pepsi002.png');changeBgColor('#e60c2c')"></li>
+            <li><img src="./assets/img/pepsi003.png"
+                    onclick="imgSlider('./assets/img/pepsi003.png');changeBgColor('#1e1e1e')"></li>
+        </ul>
+
+        <ul class="sci">
+            <li><a href="#"><img src="./assets/img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./assets/img/twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="./assets/img/instagram.png" alt=""></a></li>
+        </ul>
+
+    </section>
+
+</body>
+
+<script src="./assets/js/index.js"></script>
+
+</html>
