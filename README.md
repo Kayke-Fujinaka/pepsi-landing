@@ -3,7 +3,7 @@
 <img src="./assets/img/img.png" width="450px" alt="PlayStation Store Page">
 
 
-Confira a aplicação: https://kayke-fujinaka.github.io/LandingPage-Pepsi/
+Confira a aplicação: https://pepsiclonning.netlify.app
 
 ## 🚀 Technologies
 
