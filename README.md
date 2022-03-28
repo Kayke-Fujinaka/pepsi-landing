@@ -7,6 +7,9 @@
 Check the Application: https://kayke-fujinaka.github.io/LandingPage-Pepsi/
 ## :dart: Features ##
 
+Confira a aplicação: https://pepsiclonning.netlify.app
+
+
 :heavy_check_mark: Estrutura da Página com Html;\
 :heavy_check_mark: Estilização com CSS;\
 :heavy_check_mark: Utilização do JavaScript;\
