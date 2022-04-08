@@ -1,6 +1,6 @@
 # PEPSI LANDING PAGE
 
-<img src="./assets/img/gif.gif" width="800px" height="400px" alt="Gif do Teste">
+<img src="./assets/img/gif.gif" alt="Gif do Teste">
 
 >  It's a Pepsi Landing Page.
 
