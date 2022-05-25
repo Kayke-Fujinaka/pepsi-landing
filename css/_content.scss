@@ -1,0 +1,57 @@
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .textBox {
+        position: relative;
+        max-width: 600px;
+    
+        h2 {
+            color: #fff;
+            font-size: 4em;
+            line-height: 1.5em;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+
+        span {
+            font-size: 2em;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 8px 20px;
+            background: #fff;
+            color: #111;
+            border-radius: 40px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        .more:active {
+            opacity: 0.7;
+        }
+    }
+
+    .imgBox {
+        width: 600px;
+        display: flex;
+        margin-top: 50px;
+        padding-right: 50px;
+        justify-content: flex-end;
+
+        img {
+            max-width: 260px;
+        }
+    }
+}
